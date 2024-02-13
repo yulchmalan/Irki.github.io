@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Helvetica Rounded", Arial, sans-serif;
+}
+.page-container {
+	max-width: 980px;
+	margin: 20px auto 0;
+}
+.left-side {
+	display: inline-block;
+	width: 25%;
+	background-color: #436850;
+	color:#fff;
+	height: 1000px;
+}
+.right-side {
+	display: inline-block;
+	vertical-align: top;
+	width: calc(75% - 6px);
+}
+
+.avatar {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+.img {
+	display: block;
+	width: 100%;
+}
+
+nav {
+    background-color: #12372A;
+    color: #fff; 
+    padding: 10px; 
+    text-align: center; 
+}
+nav a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+nav li {
+    display: inline; 
+    margin-right: 20px; 
+}
+.left-side a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+h1, h2, p, ul, ol, li, hr {
+	margin-left: 10px;
+}
+
+.left-side h2 {
+	margin-top: 7px;
+}
+
+.left-side h1 {
+	margin-top: 10px;
+	font-size: 25px;
+}
+.left-side h2 {
+	font-size: 15px;
+}
+.left-side hr {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-right: 10px;
+	background-color: #84b2a3;
+	height: 3px;
+	border: 1px;
+	border-radius: 7px 7px 7px 7px;
+}
+.left-side p {
+	font-size: 15px;
+}
+
+.left-side ul {
+	list-style-type: none;
+	margin-top: 7px;
+}
+
+li {
+    margin-bottom: 7px; 
+}
+
+.right-side hr {
+	background-color: #436850;
+	height: 3px;
+	border: 1px;
+	border-radius: 7px 7px 7px 7px;
+	margin-left: 30px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.right-side h1 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 40px;
+}
+
+.date {
+    float: right;
+	margin-right: 10px;
+}
+
+.lname {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.lloc {
+	font-style: italic;
+}
+
+.linfo {
+	margin-right: 100px;
+}
+
+.right-side ul {
+	list-style-type: none;
+}
+
+ol {
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 20px;
+}

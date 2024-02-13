@@ -1,0 +1,14 @@
+.div1 {
+    width: 500px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.div2 {
+    padding: 5px;
+}
+.kitty {
+    width: 450px;
+    margin: auto;
+    display: block;
+}
