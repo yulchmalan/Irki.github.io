@@ -1,10 +1,10 @@
-.div1 {
+.outside-div {
     width: 500px;
     border-style: solid;
     border-width: 1px;
     border-color: black;
 }
-.div2 {
+.inside-div {
     padding: 5px;
 }
 .kitty {

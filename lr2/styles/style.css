@@ -119,7 +119,7 @@ li {
 	margin-right: 10px;
 }
 
-.lname {
+.l-name {
 	font-weight: bold;
 	font-size: 20px;
 }
@@ -130,11 +130,11 @@ h2, section {
 	margin-bottom: 10px;
 	font-weight: bold;
 }
-.lloc {
+.l-location {
 	font-style: italic;
 }
 
-.linfo {
+.l-info {
 	margin-right: 100px;
 }
 
@@ -154,4 +154,9 @@ footer {
 	text-align: center;
 	color: rgb(163, 167, 172);
 	font-size: 12px;
+}
+
+.language-lvl {
+	float: right;
+	margin-right: 15px;
 }
