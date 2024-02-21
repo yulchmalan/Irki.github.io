@@ -61,7 +61,7 @@ nav li {
     text-decoration: none;
 }
 
-h1, h2, p, ul, ol, li, hr {
+section, h1, h2, p, ul, ol, li, hr {
 	margin-left: 10px;
 }
 
@@ -124,10 +124,11 @@ li {
 	font-size: 20px;
 }
 
-h2 {
+h2, section {
 	font-size: 25px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	font-weight: bold;
 }
 .lloc {
 	font-style: italic;
@@ -145,4 +146,12 @@ ol {
 	font-weight: bold;
 	font-size: 20px;
 	margin-left: 20px;
+}
+
+footer {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: rgb(163, 167, 172);
+	font-size: 12px;
 }

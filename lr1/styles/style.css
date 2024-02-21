@@ -12,7 +12,6 @@ body {
 
 span {
     font-size: 20px;
-    margin-left: 0px;
 }
 
 div{
@@ -77,4 +76,8 @@ tr:nth-child(even) {
 td {
     border: 3px solid #344E41;
     padding: 2px;
+}
+
+.site {
+    font-size: 25px;
 }
