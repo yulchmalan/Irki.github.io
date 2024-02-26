@@ -14,7 +14,7 @@ html, body {
     border-radius: 4px;
 }
 
-.h1 {
+h1 {
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
@@ -35,7 +35,7 @@ p {
     padding: 5px;
 }
 
-info {
+.info {
     border-bottom: 1px solid #c0c0c0;
     padding: 10px;
 }
