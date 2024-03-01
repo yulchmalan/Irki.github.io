@@ -56,9 +56,14 @@ nav li {
     display: inline; 
     margin-right: 20px; 
 }
+
 .left-side a {
     color: #fff; 
     text-decoration: none;
+}
+
+.nav-list-element{
+	margin-left: 0;
 }
 
 section, h1, h2, p, ul, ol, li, hr {
