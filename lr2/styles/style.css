@@ -73,7 +73,9 @@ p,
 ul, 
 ol, 
 li, 
-hr {
+hr,
+address,
+time {
 	margin-left: 10px;
 }
 
