@@ -5,18 +5,11 @@
 }
 
 .first-circle {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    margin: 100px auto 0;
-    background-color: white;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     box-shadow: 0 0 0 40px rgb(255, 255,0),
                 0 0 0 80px rgb(0, 0, 255);
 }
 
+.first-circle,
 .second-circle {
     position: relative;
     width: 100px;
