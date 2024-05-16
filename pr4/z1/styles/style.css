@@ -10,33 +10,24 @@ body > div {
     margin: 20px auto 0;
 }
 
-body > div:not(.transparent) {
-    background-color: cornflowerblue;
-}
-
-body > div:not(.transparent):nth-child(3n-1) {
-    background-color: rgb(180, 100, 237);
-}
-
-body > div:not(.transparent):nth-child(3n) {
-    background-color: rgb(100, 237, 189);
-}
-
 .circle {
+    background-color: rgb(46, 46, 211);
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
 }
 
-/* .square {
-
-} */
+.square {
+    background-color: rgb(255, 243, 15);
+}
 
 .rectangle {
     width: 240px;
+    background-color: rgb(213, 49, 49);
 }
 
 .oval {
+    background-color: rgb(15, 255, 31);
     width: 240px;
     border-radius: 50%;
     -moz-border-radius: 50%;
@@ -54,7 +45,7 @@ body > div:not(.transparent):nth-child(3n) {
 .triangle-down {
     width: 0;
     height: 0;
-    border-top: 120px solid rgb(100, 237, 189); 
+    border-top: 120px solid rgb(251, 25, 36); 
     border-left: 60px solid transparent;
     border-right: 60px solid transparent;
 }
@@ -70,12 +61,13 @@ body > div:not(.transparent):nth-child(3n) {
 .triangle-right {
     width: 0;
     height: 0;
-    border-left: 120px solid rgb(180, 100, 237); 
+    border-left: 120px solid rgb(142, 28, 224); 
     border-top: 60px solid transparent;
     border-bottom: 60px solid transparent;
 }
 
 .diamond {
+    background-color: rgb(15, 255, 215);
     margin: 40px auto;
     transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -92,6 +84,7 @@ body > div:not(.transparent):nth-child(3n) {
 }
 
 .parallelogram {
+    background-color: rgb(255, 243, 15);
     height: 90px;
     transform: skew(30deg);
     -moz-transform: skew(30deg);
@@ -196,6 +189,7 @@ body > div:not(.transparent):nth-child(3n) {
 }
 
 .hexagon {
+    background-color: blueviolet;
     width: 100px;
     height: 55px;
     position: relative;
@@ -211,7 +205,7 @@ body > div:not(.transparent):nth-child(3n) {
     left: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-bottom: 25px solid rgb(100, 237, 189);
+    border-bottom: 25px solid blueviolet;
 }
 
 .hexagon::after {
@@ -223,10 +217,11 @@ body > div:not(.transparent):nth-child(3n) {
     left: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-top: 25px solid rgb(100, 237, 189);
+    border-top: 25px solid blueviolet;
 }
 
 .octagon {
+    background-color: rgb(100, 149, 237);
     width: 100px;
     height: 100px;
     position: relative;
@@ -326,6 +321,7 @@ body > div:not(.transparent):nth-child(3n) {
 }
 
 .comment-bubble {
+    background-color: cornflowerblue;
     width: 140px;
     height: 100px;
     position: relative;

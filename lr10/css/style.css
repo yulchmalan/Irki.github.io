@@ -11,9 +11,14 @@ a {
     text-decoration: none;
 }
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /* Header */
 
-header > .container{
+.header {
     background: url(../img/jumbotron.jpg) top / auto 200% no-repeat;
     height: 230px;
     text-align: center;
@@ -241,7 +246,7 @@ footer li {
 }
 
 @media (min-width: 736px) {
-    header > .container {
+    .header {
         height: 300px;
         background-size: auto 275%;
     }
@@ -249,7 +254,8 @@ footer li {
         padding-top: 75px;
     }
     article img {
-        width: 40%;
+        height: 200px;
+        width: 250px;
     }
 }
 
@@ -266,7 +272,7 @@ footer li {
 }
 
 @media (min-width: 1312px) {
-    header > .container {
+    .header {
         height: 350px;
         background-size: 110%;
     }
