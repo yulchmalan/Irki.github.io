@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-wrapper {
+    background-color: white;
+    width: 350px;
+    border-radius: 8px;
+    border: solid #cfcdd0 3px;
+}
+
+.form-header {
+    height: 350px;
+    text-align: center;
+    background-color: #d00034;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    img {
+        height: 250px;
+        width: 100%;
+    }
+}
+
+.form-header h1 {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.form-header h2 {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.header-text-wrapper {
+    height: 100px;
+    padding: 5px 60px;
+}
+
+.download-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-width: 0 3px 3px 3px;
+    border-color: #e0e5e9;
+    border-style: solid;
+}
+
+.download-form input:not([class="download-button"]),
+.download-form select {
+    position: relative;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+.input-after::after {
+    content: '*';
+    color: #d00034;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+}
+
+.download-form .required {
+    color: #d00034;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.download-button {
+    background: rgb(1,133,199);
+    background: linear-gradient(180deg, rgba(1,133,199,1) 0%, rgba(23,84,206,1) 100%);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
